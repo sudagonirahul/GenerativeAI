@@ -1,0 +1,31 @@
+Handle Missing Values
+---------------------
+None or NaN () -> System level missing values.
+Empty String '' -> User left field blank
+Placeholder text like 'N/A', '?', 'Not sure' - Human entered but invalid data.
+# Employee feedback dataset
+    employee_id
+    department
+    feedback
+    rating
+    manager_comments
+Mean / Average
+    Sum of all the values
+    ----------------------
+    count of all the values
+# Language Detection
+langdetect
+# Support tickets
+OpenAI - Org 1 -> Google
+Google - Org 2
+LangChain
+OpenAI
+    Products
+        ChatGpt
+        DALL-E (Image Generation)
+        Whisper (Speech to text)
+        Embeddings
+        Fine tuning APIs
+    Cat  ==   Dog
+    King Queen
+    Similarity Search
