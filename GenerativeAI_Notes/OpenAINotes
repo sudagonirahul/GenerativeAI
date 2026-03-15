@@ -1,0 +1,14 @@
+penAI
+    pip install openai
+    Input (Prompt) -> LLM -> Output
+API Key - Similar to credentials
+To create a new API key:
+    https://platform.openai.com/api-keys
+    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
+To add credit balance to openai
+    https://platform.openai.com/settings/organization/billing/overview
+    ChatCompletion(
+        id='chatcmpl-CzaVG2L6X4MsOhT4UHjsMCbQsEoWK', 
+        choices=[Choice(finish_reason='stop', index=0, logprobs=None, 
+        message=ChatCompletionMessage(
+            content='Sentiment: Positive', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1768794362, model='gpt-4o-mini-2024-07-18', object='chat.completion', service_tier='default', system_fingerprint='fp_8bbc38b4db', usage=CompletionUsage(completion_tokens=4, prompt_tokens=80, total_tokens=84, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
